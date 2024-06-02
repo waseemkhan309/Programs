@@ -1,0 +1,44 @@
+// convert string to array
+//  https://codedamn.com/news/javascript/how-to-convert-a-string-to-an-array-in-javascript
+// Reverse Vowels of a String
+Q: How to convert a string to an Array in JavaScript?
+  1) split() string method. syntax: string.split(separator, limit)
+  2) Array.from() method    syntax: Array.from(object, Function, this)
+  3) object.assign() method. syntax: Object.assign({}/[],object)
+  4) The spread operator
+  5) Using loops  
+      1) The for… of… loop    
+Example:
+let str1 = 'codedamn'
+let array1 = []
+for(let i of str){
+    arr.push(i);
+}
+console.log(array1)
+      2) Using for… in… loop
+Example:
+let str1 = 'codedamn'
+let array1 = []
+for(let i in str1){
+    array1.push(str1[i]);
+}
+console.log(array1)
+     3) for loop
+Example:
+let str1 = "codedamn";
+let array1 = [];
+for (let i = 0; i < str.length; i++) {array1.push(str[i]);
+}
+console.log(array1)
+///////////////////////////////////////////////////////
+Convert an Object to an Array in JavaScript?
+- To convert an object to an array you use one of three methods:
+Object.keys()
+Objects.values()
+Object.entries()
+////////////////////////////////////////////////////
+how to convert arrays with different types of elements to strings using the { toString() method } and
+to convert the strings back to an array using the { split() method }.
+///////////////////////////////////////////////////
+- how to reverse the string
+https://interviewing.io/questions/reverse-string
